@@ -16,7 +16,7 @@ const Axiostodo = () => {
     });
     const axios_list = async () => {
         try {
-            const response = await axios.get('https://64da1fefe947d30a260acfd9.mockapi.io/api/v2/student_details')
+            const response = await axios.get('https://64da1fefe947d30a260acfd9.mockapi.io/api/v2/dress_list')
             console.log(response.data)
             setdata(response.data)
         } catch (error) {
